@@ -15,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,9 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'ACP_COPYRIGHTEXTENDED_SETTING_SAVED'	=> 'Copyright Extended saved.',
-	'ACP_COPYRIGHTEXTENDED_EDIT'			=> 'Edit copyright',
-	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> 'Click the edit icon to edit the copyright text.',
-	'ACP_COPYRIGHTEXTENDED_VERSION'	        => 'Version',
-]);
+$lang = array_merge($lang, array(
+	'ACP_COPYRIGHTEXTENDED_TITLE'			=> 'Copyright Extended',
+	'ACP_COPYRIGHTEXTENDED'					=> 'Налаштування',
+
+	'LOG_ACP_COPYRIGHTEXTENDED_SETTINGS'	=> '<strong>Copyright Extended налаштування оновлено</strong>',
+));

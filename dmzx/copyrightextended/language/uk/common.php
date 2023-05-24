@@ -15,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,9 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'ACP_COPYRIGHTEXTENDED_TITLE'			=> 'Copyright Extended',
-	'ACP_COPYRIGHTEXTENDED'					=> 'Settings',
-
-	'LOG_ACP_COPYRIGHTEXTENDED_SETTINGS'	=> '<strong>Copyright Extended settings updated</strong>',
-]);
+$lang = array_merge($lang, array(
+	'ACP_COPYRIGHTEXTENDED_SETTING_SAVED'	=> 'Copyright Extended збережено.',
+	'ACP_COPYRIGHTEXTENDED_EDIT'			=> 'Редагувати авторські права',
+	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> "Натисніть на іконку редагування, щоб відредагувати текст авторських прав.",
+	'ACP_COPYRIGHTEXTENDED_VERSION'	        => "Версія",
+));
