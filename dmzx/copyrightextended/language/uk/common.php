@@ -1,11 +1,12 @@
 <?php
 /**
-*
-* @package phpBB Extension - Image Upload
-* @copyright (c) 2017 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * Copyright Extended. An extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2020, dmzx, https://www.dmzx-web.net
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 if (!defined('IN_PHPBB'))
 {
@@ -14,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -29,13 +30,13 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters for use
+// Some characters you may want to copy&paste:
 // ’ » “ ” …
+//
 
-$lang = array_merge($lang, [
-	'ACL_U_IMAGEUPLOAD'			=> 'Image Upload',
-	'ACL_U_IMAGE_UPLOAD'		=> 'Can upload images',
-	'ACL_U_IMAGE_DELETE'		=> 'Can delete images in UCP',
-	'ACL_U_IMAGE_UPLOAD_UCP'	=> 'Can see images in UCP profile tab',
-	'ACL_U_IMAGE_UPLOAD_MULTI'	=> 'Can upload multiple images',
-]);
+$lang = array_merge($lang, array(
+	'ACP_COPYRIGHTEXTENDED_SETTING_SAVED'	=> 'Copyright Extended збережено.',
+	'ACP_COPYRIGHTEXTENDED_EDIT'			=> 'Редагувати авторські права',
+	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> "Натисніть на іконку редагування, щоб відредагувати текст авторських прав.",
+	'ACP_COPYRIGHTEXTENDED_VERSION'	        => "Версія",
+));

@@ -1,12 +1,11 @@
 <?php
 /**
- *
- * Copyright Extended. An extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2020, dmzx, https://www.dmzx-web.net
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package phpBB Extension - Image Upload
+* @copyright (c) 2017 dmzx - https://www.dmzx-web.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -15,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -30,13 +29,13 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters you may want to copy&paste:
+// Some characters for use
 // ’ » “ ” …
-//
 
-$lang = array_merge($lang, [
-	'ACP_COPYRIGHTEXTENDED_TITLE'			=> 'Copyright Extended',
-	'ACP_COPYRIGHTEXTENDED'					=> 'Settings',
-
-	'LOG_ACP_COPYRIGHTEXTENDED_SETTINGS'	=> '<strong>Copyright Extended settings updated</strong>',
-]);
+$lang = array_merge($lang, array(
+	'ACL_U_IMAGEUPLOAD'			=> 'Image Upload',
+	'ACL_U_IMAGE_UPLOAD'		=> 'Може завантажувати зображення',
+	'ACL_U_IMAGE_DELETE'		=> 'Може видаляти зображення в UCP',
+	'ACL_U_IMAGE_UPLOAD_UCP'	=> 'Зображення можна переглянути у вкладці профілю UCP',
+	'ACL_U_IMAGE_UPLOAD_MULTI'	=> 'Можна завантажити кілька зображень',
+));

@@ -1,22 +1,20 @@
 <?php
 /**
- * Mailing List extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2015 DavidIQ.com
- * @license GNU General Public License, version 2 (GPL-2.0)
- */
+*
+* @package phpBB Extension - Image Upload
+* @copyright (c) 2017 dmzx - https://www.dmzx-web.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
-/**
- * DO NOT CHANGE
- */
 if (!defined('IN_PHPBB'))
 {
-    exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-    $lang = array();
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,12 +34,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-    // ACP Module
-    'ACP_CAT_MAILINGLIST'      => 'Mailing List',
-    'ACP_MAILINGLIST_SETTINGS' => 'Mailing List Settings',
-
-    // ACP Logs
-    'LOG_MAILINGLIST_UPDATED' => '<strong>Updated Mailing List: %1$s</strong>',
-    'LOG_MAILINGLIST_CREATED' => '<strong>Created Mailing List: %1$s</strong>',
-    'LOG_MAILINGLIST_DELETED' => '<strong>Deleted Mailing List: %1$s</strong>',
+	'ACP_IMAGE_UPLOAD'			=> 'Image Upload',
+	'ACP_IMAGE_UPLOAD_CONFIG'	=> 'Конфігурація',
+	// Log
+	'LOG_IMAGEUPLOAD_ADD'		=> '<strong>Додано нове зображення</strong><br>» %1$s',
+	'LOG_IMAGEUPLOAD_SETTINGS'	=> '<strong>Image Upload конфігурація змінена</strong>',
+	'LOG_IMAGEUPLOAD_DELETED'	=> '<strong>Видалене зображення</strong><br>» %1$s',
+	'LOG_USER_IMAGE_DELETED'	=> '<strong>Зображення %s видалено з реальним іменем %s на сервері</strong>',
 ));

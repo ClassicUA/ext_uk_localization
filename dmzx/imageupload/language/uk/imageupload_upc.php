@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -33,9 +33,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'IMAGEUPLOAD_UCP'							=> 'Uploaded images',
-	'IMAGEUPLOAD_UCP_UPLOADED_IMAGES'			=> 'Your uploaded images.',
-	'IMAGEUPLOAD_UCP_UPLOADED_NO_IMAGES'		=> 'No images uploaded yet.',
-	'IMAGEUPLOAD_UCP_UPLOADED_IMAGES_DELETE'	=> 'Your uploaded images can be deleted here.',
-]);
+	'IMAGEUPLOAD_UCP_UPLOADED_IMAGES'			=> 'Ваші завантажені зображення.',
+	'IMAGEUPLOAD_UCP_UPLOADED_NO_IMAGES'		=> 'Зображення ще не завантажені.',
+	'IMAGEUPLOAD_UCP_UPLOADED_IMAGES_DELETE'	=> 'Тут ви можете видалити завантажені вами зображення.',
+));

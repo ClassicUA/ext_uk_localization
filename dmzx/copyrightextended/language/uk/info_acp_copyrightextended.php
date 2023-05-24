@@ -1,11 +1,12 @@
 <?php
 /**
-*
-* @package phpBB Extension - Image Upload
-* @copyright (c) 2017 dmzx - https://www.dmzx-web.net
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * Copyright Extended. An extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2020, dmzx, https://www.dmzx-web.net
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 if (!defined('IN_PHPBB'))
 {
@@ -14,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -33,6 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'UCP_IMAGEUPLOAD_TITLE'	=> 'Uploaded images',
-]);
+$lang = array_merge($lang, array(
+	'ACP_COPYRIGHTEXTENDED_TITLE'			=> 'Copyright Extended',
+	'ACP_COPYRIGHTEXTENDED'					=> 'Налаштування',
+
+	'LOG_ACP_COPYRIGHTEXTENDED_SETTINGS'	=> '<strong>Copyright Extended налаштування оновлено</strong>',
+));

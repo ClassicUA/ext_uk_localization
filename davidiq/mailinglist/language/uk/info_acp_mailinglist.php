@@ -1,21 +1,22 @@
 <?php
 /**
+ * Mailing List extension for the phpBB Forum Software package.
  *
- * Copyright Extended. An extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2020, dmzx, https://www.dmzx-web.net
+ * @copyright (c) 2015 DavidIQ.com
  * @license GNU General Public License, version 2 (GPL-2.0)
- *
  */
 
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
-	exit;
+    exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+    $lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,9 +35,13 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'ACP_COPYRIGHTEXTENDED_SETTING_SAVED'	=> 'Copyright Extended saved.',
-	'ACP_COPYRIGHTEXTENDED_EDIT'			=> 'Edit copyright',
-	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> 'Click the edit icon to edit the copyright text.',
-	'ACP_COPYRIGHTEXTENDED_VERSION'	        => 'Version',
-]);
+$lang = array_merge($lang, array(
+    // ACP Module
+    'ACP_CAT_MAILINGLIST'      => 'Mailing List',
+    'ACP_MAILINGLIST_SETTINGS' => 'Mailing List Налаштування',
+
+    // ACP Logs
+    'LOG_MAILINGLIST_UPDATED' => '<strong>Оновлено Mailing List: %1$s</strong>',
+    'LOG_MAILINGLIST_CREATED' => '<strong>Створено Mailing List: %1$s</strong>',
+    'LOG_MAILINGLIST_DELETED' => '<strong>Видалено Mailing List: %1$s</strong>',
+));
