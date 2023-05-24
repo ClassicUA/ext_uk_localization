@@ -38,10 +38,10 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
     // ACP Module
     'ACP_CAT_MAILINGLIST'      => 'Mailing List',
-    'ACP_MAILINGLIST_SETTINGS' => 'Mailing List Settings',
+    'ACP_MAILINGLIST_SETTINGS' => 'Mailing List Налаштування',
 
     // ACP Logs
-    'LOG_MAILINGLIST_UPDATED' => '<strong>Updated Mailing List: %1$s</strong>',
-    'LOG_MAILINGLIST_CREATED' => '<strong>Created Mailing List: %1$s</strong>',
-    'LOG_MAILINGLIST_DELETED' => '<strong>Deleted Mailing List: %1$s</strong>',
+    'LOG_MAILINGLIST_UPDATED' => '<strong>Оновлено Mailing List: %1$s</strong>',
+    'LOG_MAILINGLIST_CREATED' => '<strong>Створено Mailing List: %1$s</strong>',
+    'LOG_MAILINGLIST_DELETED' => '<strong>Видалено Mailing List: %1$s</strong>',
 ));

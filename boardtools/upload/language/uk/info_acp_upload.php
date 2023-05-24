@@ -19,6 +19,6 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_UPLOAD_EXT_TITLE'				=> 'Загрузка Расширений',
-	'ACP_UPLOAD_EXT_CONFIG_TITLE'		=> 'Загрузка расширений',
+	'ACP_UPLOAD_EXT_TITLE'				=> 'Завантаження Розширень',
+	'ACP_UPLOAD_EXT_CONFIG_TITLE'		=> 'Завантаження Розширень',
 ));
