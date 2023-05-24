@@ -1,0 +1,18 @@
+Subject: {SITENAME}: Have you lost your interest?
+
+Hello {USERNAME},
+
+You registered with our forum {SITENAME} on {REG_DATE}.
+Since then there have been a number of days without you logging  in, have you lost your interest in our forum?
+
+In case you have forgotten your credentials you can always retrieve them using the following link.
+
+{FORGOT_PASS}
+
+In any case you can always contact the administrator of the forum at this e-mail: {ADMIN_MAIL}.
+
+If you don't log in our forum within the next {DAYS_DEL_SLEEPERS} days your account may be deleted without further notice.
+
+Hope to see you soon.
+
+{EMAIL_SIG}
