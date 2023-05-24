@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'FLAGS'				=> array(
-		1 => '%s flag',
-		2 => '%s flags',
+		1 => '%s прапор',
+		2 => '%s прапори',
 	),
 	'USER_FLAG'			=> 'Прапор',
 	'USER_FLAG_EXPLAIN'	=> 'Відображається прапор за замовчуванням дошки.',
@@ -45,8 +45,8 @@ $lang = array_merge($lang, array(
 	'USER_NEEDS_FLAG'	=> 'Будь ласка, знайдіть хвилинку і відвідайте свій профіль, щоб вибрати прапор.',
 	'FLAGS_VIEWONLINE'	=> 'Перегляд прапорів',
 	'FLAG_USERS'		=>  array(
-		1 => '%s User',
-		2 => '%s Users',
+		1 => '%s Користувач',
+		2 => '%s Користувачі',
 	),
 	'MUST_CHOOSE_FLAG'	=> '<span class="error">Ви повинні вибрати прапор.</span>',
 	'NO_SUCH_FLAG'		=> '<span class="error">Прапора не існує</span>',
