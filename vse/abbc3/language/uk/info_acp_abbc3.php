@@ -15,11 +15,11 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACP_ABBC3_MODULE'		=> 'Advanced BBCode Box',
-	'ACP_ABBC3_SETTINGS'	=> 'Settings',
-	'LOG_ABBC3_ENABLE_FAIL'	=> '<strong>Advanced BBCode Box was unable to create the directory:</strong><br>%s',
-]);
+	'ACP_ABBC3_SETTINGS'	=> 'Налаштування',
+	'LOG_ABBC3_ENABLE_FAIL'	=> '<strong>Advanced BBCode Box не вдалося створити каталог:</strong><br>%s',
+));
