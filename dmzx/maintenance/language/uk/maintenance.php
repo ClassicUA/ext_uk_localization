@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -32,11 +32,17 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
-	'MAINTENANCE_ENABLE'						=> 'Enable Maintenance mode',
-	'MAINTENANCE_ENABLE_EXPLAIN'				=> '"Disable board" above must be set to Yes to activate Maintenance mode.',
-	'ACP_MAINTENANCE'							=> 'Maintenance mode',
-	'ACP_MAINTENANCE_SETTINGS'					=> 'Settings',
-	//Log
-	'LOG_MAINTENANCE_SAVED'						=> '<strong>Maintenance mode configuration updated</strong>',
-]);
+$lang = array_merge($lang, array(
+	'MAINTENANCE_TEXT'				=> '%1$s наразі виконує оновлення технічного обслуговування, щоб краще обслуговувати вас.',
+	'MAINTENANCE_TEXT_APOLOGIZE'	=> 'Просимо вибачення за тимчасові незручності.',
+	'MAINTENANCE_DAY'				=> 'День',
+	'MAINTENANCE_DAYS'				=> 'Дні(днів)',
+	'MAINTENANCE_HOUR'				=> 'Година',
+	'MAINTENANCE_HOURS'				=> 'Години(годин)',
+	'MAINTENANCE_MINUTE'			=> 'Хвилина',
+	'MAINTENANCE_MINUTES'			=> 'Хвилини(хвилин)',
+	'MAINTENANCE_SECOND'			=> 'Секунда',
+	'MAINTENANCE_SECONDS'			=> 'Секунд(секунди)',
+	'MAINTENANCE_TIMEIN'			=> 'Точніше, в:',
+	'MAINTENANCE_INFO'				=> 'Модернізація обслуговування',
+));

@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'MAINTENANCE_FACEBOOK'			=> 'Facebook',
 	'MAINTENANCE_TWITTER'			=> 'Twitter',
 	'MAINTENANCE_RSS'				=> 'RSS',
@@ -40,4 +40,4 @@ $lang = array_merge($lang, [
 	'MAINTENANCE_LINKEDIN'			=> 'Linkedin',
 	'MAINTENANCE_GITHUB'			=> 'Github',
 	'MAINTENANCE_EMAIL'				=> 'Email us',
-]);
+));
