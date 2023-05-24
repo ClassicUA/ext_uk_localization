@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -32,10 +32,10 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACL_U_IMAGEUPLOAD'			=> 'Image Upload',
-	'ACL_U_IMAGE_UPLOAD'		=> 'Can upload images',
-	'ACL_U_IMAGE_DELETE'		=> 'Can delete images in UCP',
-	'ACL_U_IMAGE_UPLOAD_UCP'	=> 'Can see images in UCP profile tab',
-	'ACL_U_IMAGE_UPLOAD_MULTI'	=> 'Can upload multiple images',
-]);
+	'ACL_U_IMAGE_UPLOAD'		=> 'Може завантажувати зображення',
+	'ACL_U_IMAGE_DELETE'		=> 'Може видаляти зображення в UCP',
+	'ACL_U_IMAGE_UPLOAD_UCP'	=> 'Зображення можна переглянути у вкладці профілю UCP',
+	'ACL_U_IMAGE_UPLOAD_MULTI'	=> 'Можна завантажити кілька зображень',
+));

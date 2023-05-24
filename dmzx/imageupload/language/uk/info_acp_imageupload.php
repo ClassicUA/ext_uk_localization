@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -33,6 +33,12 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'UCP_IMAGEUPLOAD_TITLE'	=> 'Uploaded images',
-]);
+$lang = array_merge($lang, array(
+	'ACP_IMAGE_UPLOAD'			=> 'Image Upload',
+	'ACP_IMAGE_UPLOAD_CONFIG'	=> 'Конфігурація',
+	// Log
+	'LOG_IMAGEUPLOAD_ADD'		=> '<strong>Додано нове зображення</strong><br>» %1$s',
+	'LOG_IMAGEUPLOAD_SETTINGS'	=> '<strong>Image Upload конфігурація змінена</strong>',
+	'LOG_IMAGEUPLOAD_DELETED'	=> '<strong>Видалене зображення</strong><br>» %1$s',
+	'LOG_USER_IMAGE_DELETED'	=> '<strong>Зображення %s видалено з реальним іменем %s на сервері</strong>',
+));
