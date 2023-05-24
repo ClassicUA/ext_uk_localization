@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	// ext manager
 	'EXTMGRPLUS_ALL_DISABLE'				=> 'Вимкнути вибране',
 	'EXTMGRPLUS_ALL_ENABLE'					=> 'Увімкнути вибране',
-	'EXTMGRPLUS_EXTENSIONS_NOT_INSTALLED'	=> 'Not installed Extensions',
+	'EXTMGRPLUS_EXTENSIONS_NOT_INSTALLED'	=> 'Не встановлені розширення',
 
 	// tooltips
 	'EXTMGRPLUS_TOOLTIP_HAS_MIGRATION'		=> 'Це розширення має нові міграції, які застосовуються при активації розширення.',
