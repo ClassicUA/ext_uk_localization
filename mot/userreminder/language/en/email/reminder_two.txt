@@ -1,0 +1,18 @@
+Subject: {SITENAME}: We're still missing you!
+
+Hello {USERNAME},
+
+You received a reminding email on {LAST_REMIND} because you had not logged in to our forum {SITENAME} for more than {DAYS_INACTIVE} days.
+Since then you still haven't logged in to our forum {SITENAME}.
+We hope that you have not lost interest in our forum we will see you again soon!
+
+In case you have forgotten your credentials you can always retrieve them using the following link.
+
+{FORGOT_PASS}
+
+In any case you can always contact the administrator of the forum at this e-mail: {ADMIN_MAIL}.
+
+If you don't log in to our forum within the next {DAYS_TIL_DELETE} days your account may be deleted without further notice.
+Hope to see you back again.
+
+{EMAIL_SIG}
