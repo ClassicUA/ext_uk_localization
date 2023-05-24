@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -32,17 +32,11 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
-	'MAINTENANCE_TEXT'				=> '%1$s is currently performing a maintenance upgrade to better serve you.',
-	'MAINTENANCE_TEXT_APOLOGIZE'	=> 'We apologize for any inconvenience.',
-	'MAINTENANCE_DAY'				=> 'Day',
-	'MAINTENANCE_DAYS'				=> 'Days',
-	'MAINTENANCE_HOUR'				=> 'Hour',
-	'MAINTENANCE_HOURS'				=> 'Hours',
-	'MAINTENANCE_MINUTE'			=> 'Minute',
-	'MAINTENANCE_MINUTES'			=> 'Minutes',
-	'MAINTENANCE_SECOND'			=> 'Second',
-	'MAINTENANCE_SECONDS'			=> 'Seconds',
-	'MAINTENANCE_TIMEIN'			=> 'More specifically, in:',
-	'MAINTENANCE_INFO'				=> 'Maintenance upgrade',
-]);
+$lang = array_merge($lang, array(
+	'MAINTENANCE_ENABLE'						=> 'Увімкнути режим технічного обслуговування',
+	'MAINTENANCE_ENABLE_EXPLAIN'				=> '"Вимкнути форум" вище має бути встановлено на Так, щоб активувати режим обслуговування.',
+	'ACP_MAINTENANCE'							=> 'Режим технічного обслуговування',
+	'ACP_MAINTENANCE_SETTINGS'					=> 'Налаштування',
+	//Log
+	'LOG_MAINTENANCE_SAVED'						=> '<strong>Оновлено конфігурацію режиму технічного обслуговування</strong>',
+));
