@@ -36,13 +36,13 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_POSTS_MERGING'				=> 'Cклеювання повідомлень',
 	'ACP_POSTS_MERGING_EXPLAIN'		=> 'Тут можна налаштувати параметри розширення для склеювання повідомлень.',
-	'ACP_POSTS_MERGING_SEPARATOR_PREVIEW'	=> 'Separator preview',
+	'ACP_POSTS_MERGING_SEPARATOR_PREVIEW'	=> 'Попередній перегляд відокремлювача',
 	'MERGE_INTERVAL'				=> 'Інтервал склеювання повідомлень',
 	'MERGE_INTERVAL_EXPLAIN'		=> 'Кількість годин, протягом якого повідомлення користувача будуть склеєні з його останнім повідомленням теми. Залиште поле порожнім або встановіть 0 для вимкнення цієї функції.',
 	'MERGE_NO_TOPICS'				=> 'Теми без склеювання',
 	'MERGE_NO_TOPICS_EXPLAIN'		=> 'Список розділених комами номерів тем, в яких склеювання повідомлень вимкнено.',
 	'MERGE_NO_FORUMS'				=> 'Форуми без склеювання',
 	'MERGE_NO_FORUMS_EXPLAIN'		=> 'Список розділених комами номерів форумів, в яких склеювання повідомлень відключено.',
-	'MERGE_SEPARATOR'				=> 'Separator',
-	'MERGE_SEPARATOR_EXPLAIN'		=> 'Here you can configure the separator which will appear between the merged message parts.<br />You can use BBCodes which will be parsed in according to the board or message settings.<br /><br />You can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as “wrote” or its translation according to user’s locale.<br /><br />Use <em>&#37;s</em> placeholder (once) to include the time passed between merging in the separator.',
+	'MERGE_SEPARATOR'				=> 'Відокремлювач',
+	'MERGE_SEPARATOR_EXPLAIN'		=> 'Тут ви можете налаштувати роздільник, який буде відображатися між частинами об\'єднаного повідомлення.<br />Ви можете використовувати BBCodes, які будуть розбиратися відповідно до налаштувань форуму або повідомлення.<br /><br />Ви також можете використовувати будь-який мовний рядок, наявний у вашій мові/директорії, таким чином: {L_<em>&lt;STRINGNAME&gt;</em>} де <em>&lt;STRINGNAME&gt;</em> назва перекладеного рядка, який ви хочете додати. Наприклад, {L_WROTE} буде відображено як "написав" або його переклад відповідно до локалі користувача.<br /><br />Використовуйте заповнювач <em>&#37;s</em> (один раз), щоб включити час, що минув між злиттями, у відокремлювач'.,
 ));
