@@ -34,6 +34,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'TOPIC_PREVIEW'					=> 'Предпросмотр тем',
-	'TOPIC_PREVIEW_SETTINGS'		=> 'Основные настройки',
+	'TOPIC_PREVIEW'					=> 'Попередній перегляд тем',
+	'TOPIC_PREVIEW_SETTINGS'		=> 'Основні налаштування',
 ));
