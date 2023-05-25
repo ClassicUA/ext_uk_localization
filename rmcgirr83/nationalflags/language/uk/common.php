@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 	'FLAG_USERS'		=>  array(
 		1 => '%s Користувач',
 		2 => '%s Користувачі',
+        3 => '%s Користувачів',
 	),
 	'MUST_CHOOSE_FLAG'	=> '<span class="error">Ви повинні вибрати прапор.</span>',
 	'NO_SUCH_FLAG'		=> '<span class="error">Прапора не існує</span>',
