@@ -1,9 +1,7 @@
 <?php
-
 /**
 *
-*
-* @package - Activity 24 hours
+* @package - Search User Topics
 * @copyright (c) 2015 RMcGirr83
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -33,31 +31,11 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
-	'BOTS_24HOUR_TOTAL'	=> [
-		1 => ' %d бот,',
-		2 => ' %d боты,',
-	],
-	'USERS_24HOUR_TOTAL'	=>  '%d зарегистрированный,',
-	'HIDDEN_24HOUR_TOTAL'	=> ' %d скрытый',
-	'GUEST_ONLINE_24'		=> [
-		1 => ' and %d гость',
-		2 => ' and %d гости',
-	],
-	'LAST_24_HOURS'	=> ' активные в течение последних 24 часов',
-	'24HOUR_TOPICS'			=> 'Новые темы %d',
-	'24HOUR_POSTS'			=> 'Новые сообщения %d',
-	'24HOUR_USERS'			=> 'Новые пользователи %d',
-	'NO_ONLINE_BOTS'		=> 'Нет активных ботов',
-
-	'TWENTYFOURHOUR_STATS'	=> 'Активность за последние 24 часа',
-	'TOTAL_24HOUR_USERS'	=> [
-		1 => 'Всего был %d пользователь :: ',
-		2 => 'Всего было %d пользователей :: ',
-	],
-	'SHOW_LIST'	=> 'Показать список',
-	'HIDE_LIST'	=> 'Скрыть список',
-	'EXTENSION_REQUIREMENTS'	=> 'Это расширение требует phpBB версии %1$s.<br> Пожалуйста, проверьте, какие версии у вас есть, и обновите их соответствующим образом, чтобы использовать это расширение.',
+$lang = array_merge($lang, array(
+	'SEARCH_USER_TOPICS'	=> 'Пошук тем користувача',
+	'TOPICS_PER_DAY'		=> '%.2f тем на день',
+	'TOPICS_PERCENT'		=> '%.2f%% всіх тем',
+	'SUT_TOTAL_TOPICS'		=> 'Усього тем',
 	//Donation
 	'PAYPAL_IMAGE_URL'          => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                => 'Donate using PayPal',
@@ -65,4 +43,4 @@ $lang = array_merge($lang, [
 	'BUY_ME_A_BEER'				=> 'Buy me a beer for creating this extension',
 	'BUY_ME_A_BEER_SHORT'		=> 'Make a donation for this extension',
 	'BUY_ME_A_BEER_EXPLAIN'		=> 'This extension is completely free. It is a project that I spend my time on for the enjoyment and use of the phpBB community. If you enjoy using this extension, or if it has benefited your forum, please consider <a href="https://paypal.me/RMcGirr83" target="_blank" rel="noreferrer noopener">buying me a beer</a>. It would be greatly appreciated. <i class="fa fa-smile-o" style="color:green;font-size:1.5em;" aria-hidden="true"></i>',
-]);
+));

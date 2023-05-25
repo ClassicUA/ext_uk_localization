@@ -38,5 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACL_F_TOPIC_VIEW'		=> 'Can view topics',
+	'TOPIC_VIEW_NOTICE'		=> 'Ви не маєте доступу до тем на цьому форумі.  Будь ласка, <em>%slogin%s</em>, щоб переглянути повідомлення.',
+	'EXTENSION_REQUIREMENTS' => 'Для розширення потрібна версія phpBB не нижче %1$s. Вам потрібно оновити вашу версію phpBB, щоб використовувати це розширення.',
 ));

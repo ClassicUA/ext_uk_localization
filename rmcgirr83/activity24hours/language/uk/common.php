@@ -1,15 +1,14 @@
 <?php
+
 /**
 *
-* @package phpBB Extension - Poster IP in viewtopic
-* @copyright (c) 2020 RMcGirr83 (Rich McGirr)
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+* @package - Activity 24 hours
+* @copyright (c) 2015 RMcGirr83
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -17,7 +16,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,24 +33,31 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 
-$lang = array_merge($lang, [
-	'NO_RESPONSE_FROM_SERVER'	=> 'Failed to get an adequate response from the freegeoip server',
-	'ERROR_FROM_SERVER'	=> 'Error was returned from server: %1$s',
-	'IP_ADDRESS_INVALID'	=> 'Invalid IP address',
-	'PAGE_TITLE'	=> 'Freegeoip Results',
-	'PIPIV_IP'	=> '<b>IP:</b> %1$s',
-	'PIPIV_COUNTRY_CODE' => '<b>Country Code:</b> %1$s',
-	'PIPIV_COUNTRY_NAME'	=> '<b>Country Name:</b> %1$s',
-	'PIPIV_REGION_CODE'	=> '<b>Region Code:</b> %1$s',
-	'PIPIV_REGION_NAME'	=> '<b>Region Name:</b> %1$s',
-	'PIPIV_CITY'			=> '<b>City:</b> %1$s',
-	'PIPIV_ZIP_CODE'		=> '<b>Zip Code:</b> %1$s',
-	'PIPIV_TIME_ZONE'		=> '<b>Time Zone:</b> %1$s',
-	'PIPIV_LATITUDE'		=> '<b>Latitude:</b> %1$s',
-	'PIPIV_LONGITUDE'		=> '<b>Longitude:</b> %1$s',
-	'PIPIV_METRO_CODE'	=> '<b>Metro Code:</b> %1$s',
-	'EXTENSION_REQUIREMENTS' => 'Extension requires at least phpBB version %1$s. You need to update your version of phpBB to utilize this extension.',
-	'EXTENSION_REQUIRES_JAVASCRIPT'	=> 'You must have javascript enabled to see the results.',
+$lang = array_merge($lang, array(
+	'BOTS_24HOUR_TOTAL'	=> [
+		1 => ' %d бот,',
+		2 => ' %d боти,',
+	],
+	'USERS_24HOUR_TOTAL'	=>  '%d зареєстрований,',
+	'HIDDEN_24HOUR_TOTAL'	=> ' %d прихований',
+	'GUEST_ONLINE_24'		=> [
+		1 => ' і %d гість',
+		2 => ' і %d гості',
+	],
+	'LAST_24_HOURS'	=> ' активні протягом останніх 24 годин',
+	'24HOUR_TOPICS'			=> 'Нові теми %d',
+	'24HOUR_POSTS'			=> 'Нові повідомлення %d',
+	'24HOUR_USERS'			=> 'Нові користувачі %d',
+	'NO_ONLINE_BOTS'		=> 'Немає активних ботів',
+
+	'TWENTYFOURHOUR_STATS'	=> 'Активність за останні 24 години',
+	'TOTAL_24HOUR_USERS'	=> [
+		1 => 'Всього був %d користувач :: ',
+		2 => 'Всього було %d користувачів :: ',
+	],
+	'SHOW_LIST'	=> 'Показати список',
+	'HIDE_LIST'	=> 'Приховати список',
+	'EXTENSION_REQUIREMENTS'	=> 'Це розширення вимагає phpBB версії %1$s.<br> Будь ласка, перевірте, які версії у вас є, і оновіть їх відповідним чином, щоб використовувати це розширення.',
 	//Donation
 	'PAYPAL_IMAGE_URL'          => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                => 'Donate using PayPal',
@@ -59,4 +65,4 @@ $lang = array_merge($lang, [
 	'BUY_ME_A_BEER'				=> 'Buy me a beer for creating this extension',
 	'BUY_ME_A_BEER_SHORT'		=> 'Make a donation for this extension',
 	'BUY_ME_A_BEER_EXPLAIN'		=> 'This extension is completely free. It is a project that I spend my time on for the enjoyment and use of the phpBB community. If you enjoy using this extension, or if it has benefited your forum, please consider <a href="https://paypal.me/RMcGirr83" target="_blank" rel="noreferrer noopener">buying me a beer</a>. It would be greatly appreciated. <i class="fa fa-smile-o" style="color:green;font-size:1.5em;" aria-hidden="true"></i>',
-]);
+));

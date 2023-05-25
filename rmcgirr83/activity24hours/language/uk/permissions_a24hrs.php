@@ -18,6 +18,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang = array_merge($lang, [
-	'ACL_U_A24HRS_VIEW'	=> 'Разрешить просмотр расширения "24-часовая статистика активности"',
-]);
+$lang = array_merge($lang, array(
+	'ACL_U_A24HRS_VIEW'	=> 'Дозволити перегляд розширення "24-годинна статистика активності"',
+));
