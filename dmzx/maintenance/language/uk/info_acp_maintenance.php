@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'MAINTENANCE_ENABLE'						=> 'Увімкнути режим технічного обслуговування',
-	'MAINTENANCE_ENABLE_EXPLAIN'				=> '"Вимкнути форум" вище має бути встановлено на Так, щоб активувати режим обслуговування.',
+	'MAINTENANCE_ENABLE_EXPLAIN'				=> 'Вимкнути форум" вище має бути встановлено на Так, щоб активувати режим обслуговування.',
 	'ACP_MAINTENANCE'							=> 'Режим технічного обслуговування',
 	'ACP_MAINTENANCE_SETTINGS'					=> 'Налаштування',
 	//Log
