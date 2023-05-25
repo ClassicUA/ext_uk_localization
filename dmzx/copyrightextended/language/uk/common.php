@@ -37,6 +37,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_COPYRIGHTEXTENDED_SETTING_SAVED'	=> 'Copyright Extended збережено.',
 	'ACP_COPYRIGHTEXTENDED_EDIT'			=> 'Редагувати авторські права',
-	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> "Натисніть на іконку редагування, щоб відредагувати текст авторських прав.",
-	'ACP_COPYRIGHTEXTENDED_VERSION'	        => "Версія",
+	'ACP_COPYRIGHTEXTENDED_EDIT_EXPLAIN'	=> 'Натисніть на іконку редагування, щоб відредагувати текст авторських прав.',
+	'ACP_COPYRIGHTEXTENDED_VERSION'	        => 'Версія',
 ));
