@@ -53,10 +53,10 @@ $lang = array_merge($lang, array(
 	'QR_TRANSLIT_TEXT'                 => 'Трансліт',
 	'QR_TRANSLIT_TEXT_TO_RU'           => 'на українську', // can be changed to your language here and below
 	'QR_TRANSLIT_TEXT_TOOLTIP'         => 'Для миттєвого відображення українською мовою натисніть на кнопку',
-	'QR_TRANSLIT_FROM'                 => 'a,b,v,h,gh,g,d,e,ie,ye,zh,z,y,i,i,yi,i,y,k,l,m,n,o,p,r,s,t,u,f,kh,ts,ch,sh,shch,,iu,yu,ia,ya,', // language specific adaptation required (do not use spaces or line breaks), use commas as separators here and below
-	'QR_TRANSLIT_TO'                   => 'а,б,в,г,г,ґ,д,е,є,є,ж,з,и,і,ї,ї,й,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ь,ю,ю,я,я,\ʼ',
-	'QR_TRANSLIT_FROM_CAPS'            => 'A,B,V,H,Gh,G,D,E,Ih,Yh,Zh,Z,Y,I,I,Yi,I,Y,K,L,M,N,O,P,R,S,T,U,F,Kh,Ts,Ch,Sh,Shch,,Iu,Yu,Ia,Ya,',
-	'QR_TRANSLIT_TO_CAPS'              => 'А,Б,В,Г,Г,Ґ,Д,Е,Є,Є,Ж,З,И,І,Ї,Ї,Й,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,ь,Ю,Я,\ʼ',
+	'QR_TRANSLIT_FROM'                 => 'je,jo,ayu,ay,aj,oju,oje,oja,oj,uj,yi,ya,ja,ju,yu,ja,y,zh,i\',shch,sch,ch,sh,ea,a,b,v,w,g,d,e,z,i,k,l,m,n,o,p,r,s,t,u,f,x,c,\'e,\',`,j,h', // language specific adaptation required (do not use spaces or line breaks), use commas as separators here and below
+    'QR_TRANSLIT_TO'                   => 'э,ё,aю,ай,ай,ою,ое,оя,ой,уй,ый,я,я,ю,ю,я,ы,ж,й,щ,щ,ч,ш,э,а,б,в,в,г,д,е,з,и,к,л,м,н,о,п,р,с,т,у,ф,х,ц,э,ь,ъ,й,х',
+    'QR_TRANSLIT_FROM_CAPS'            => 'Yo,Jo,Ey,Je,Ay,Oy,Oj,Uy,Uj,Ya,Ja,Ju,Yu,Ja,Y,Zh,I\',Sch,Ch,Sh,Ea,Tz,A,B,V,W,G,D,E,Z,I,K,L,M,N,O,P,R,S,T,U,F,X,C,EA,J,H',
+    'QR_TRANSLIT_TO_CAPS'              => 'Ё,Ё,Ей,Э,Ай,Ой,Ой,Уй,Уй,Я,Я,Ю,Ю,Я,Ы,Ж,Й,Щ,Ч,Ш,Э,Ц,А,Б,В,В,Г,Д,Е,З,И,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Э,Й,Х',,
 	// end mod Translit
 	// begin mod CapsLock Transform
 	'QR_TRANSFORM_TEXT'                => 'Зміна регістру тексту',
