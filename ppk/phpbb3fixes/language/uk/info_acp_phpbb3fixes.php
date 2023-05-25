@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PHPBB3FIXES' => 'phpBB3Fixes',
-	'ACP_PHPBB3FIXES_CONFIG' => 'Настройки',
-	'LOG_PHPBB3FIXES_CONFIG' => '<strong>Изменены настройки phpBB3Fixes</strong>',
+	'ACP_PHPBB3FIXES_CONFIG' => 'Налаштування',
+	'LOG_PHPBB3FIXES_CONFIG' => '<strong>Змінено налаштування phpBB3Fixes</strong>',
 
 ));
