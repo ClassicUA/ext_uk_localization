@@ -46,5 +46,5 @@ if (empty($lang) || !is_array($lang))
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'ACL_U_SIMILARTOPICS'	=> 'Может видеть блок «Похожие темы»',
+	'ACL_U_SIMILARTOPICS'	=> 'Може бачити блок "Схожі теми"',
 ));

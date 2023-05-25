@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'PST_TITLE_ACP'		=> 'Похожие темы',
-	'PST_SETTINGS'		=> 'Настройки расширения «Похожие темы»',
-	'PST_LOG_MSG'		=> '<strong>Изменены настройки расширения «Похожие темы»</strong>',
+	'PST_TITLE_ACP'		=> 'Схожі теми',
+	'PST_SETTINGS'		=> 'Налаштування розширення "Схожі теми"',
+	'PST_LOG_MSG'		=> '<strong>Змінено налаштування розширення "Схожі теми"</strong>',
 ));
