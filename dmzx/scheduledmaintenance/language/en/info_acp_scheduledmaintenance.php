@@ -15,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,9 +34,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACP_SCHEDULEDMAINTENANCE_TITLE'			=> 'Scheduled Maintenance',
-	'ACP_SCHEDULEDMAINTENANCE'					=> 'Settings',
+	'ACP_SCHEDULEDMAINTENANCE'					=> 'Налаштування',
 
-	'LOG_ACP_SCHEDULEDMAINTENANCE_SETTINGS'		=> '<strong>Scheduled Maintenance settings updated</strong>',
-]);
+	'LOG_ACP_SCHEDULEDMAINTENANCE_SETTINGS'		=> '<strong>Scheduled Maintenance налаштування оновлено</strong>',
+));
