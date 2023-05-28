@@ -20,7 +20,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'CLEAR_LIST_THANKS'			=> 'Очистити список подяк',
 	'CLEAR_LIST_THANKS_CONFIRM'	=> 'Ви дійсно хочете очистити список подяк користувача?',
 	'CLEAR_LIST_THANKS_GIVE'	=> 'Cписок подяк, виданих користувачем, очищений.',
@@ -114,4 +114,4 @@ $lang = array_merge($lang, [
 	'THANKS_PM_SUBJECT_REMOVE'	=> 'Подяка за повідомлення скасована',
 	'THANKS_USER'				=> 'Лист подяк',
 	'TOPLIST'					=> 'Топ лист повідомлень',
-]);
+));
