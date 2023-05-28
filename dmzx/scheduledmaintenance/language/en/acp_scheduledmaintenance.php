@@ -15,7 +15,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,10 +34,10 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, [
-	'ACP_SCHEDULEDMAINTENANCE_ENABLE'			=> 'Scheduled Maintenance enable',
-	'ACP_SCHEDULEDMAINTENANCE_SETTING_SAVED'	=> 'Scheduled Maintenance saved.',
-	'ACP_SCHEDULEDMAINTENANCE_EDIT'				=> 'Edit scheduled maintenance',
-	'ACP_SCHEDULEDMAINTENANCE_EDIT_EXPLAIN'		=> 'Click the edit icon to edit the scheduled maintenance text and switch on/off the scheduled maintenance.',
-	'ACP_SCHEDULEDMAINTENANCE_VERSION'			=> 'Version',
-]);
+$lang = array_merge($lang, array(
+	'ACP_SCHEDULEDMAINTENANCE_ENABLE'			=> 'Scheduled Maintenance увікнути',
+	'ACP_SCHEDULEDMAINTENANCE_SETTING_SAVED'	=> 'Scheduled Maintenance збережено.',
+	'ACP_SCHEDULEDMAINTENANCE_EDIT'				=> 'Редагувати заплановане обслуговування',
+	'ACP_SCHEDULEDMAINTENANCE_EDIT_EXPLAIN'		=> 'Натисніть на іконку редагування, щоб відредагувати текст запланованого технічного обслуговування і ввімкнути/вимкнути заплановане технічне обслуговування.',
+	'ACP_SCHEDULEDMAINTENANCE_VERSION'			=> 'Версія',
+));
