@@ -1,4 +1,4 @@
-Subject: {THANKS_SUBG}
+Тема: {THANKS_SUBG}
 
 Користувач {USERNAME} пише:
 
