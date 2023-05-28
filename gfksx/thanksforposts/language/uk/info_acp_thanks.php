@@ -20,7 +20,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACP_DELTHANKS'						=> 'Видалено врахованих подяк',
 	'ACP_POSTS'							=> 'Всього повідомлень',
 	'ACP_POSTSEND'						=> 'Залишилося повідомлень з подяками',
@@ -132,4 +132,4 @@ $lang = array_merge($lang, [
 	'TRUNCATE_NO_THANKS'				=> 'Дія скасована',
 	'ALLOW_THANKS_PM_ON'				=> 'Отримувати повідомлення про подяках в ПП',
 	'ALLOW_THANKS_EMAIL_ON'				=> 'Отримувати повідомлення про подяках на Email',
-]);
+));
