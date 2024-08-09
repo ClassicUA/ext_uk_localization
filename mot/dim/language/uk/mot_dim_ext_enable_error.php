@@ -17,8 +17,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, [
-	'MOT_DIM_EXT_NAME'						=> 'Delete Inactive Members',
-	'MOT_DIM_ERROR_EXTENSION_NOT_ENABLE'	=> 'The extension „%1$s“ can not be enabled. Please check whether the necessary requirements for this extension are satisfied.',
-	'MOT_DIM_ERROR_MESSAGE_PHPBB_VERSION'	=> 'Minimum version of phpBB required is „%1$s“ but less than „%2$s“',
-	'MOT_DIM_PHP_VERSION_ERROR'				=> 'Minimum version of PHP is „%1$s“ but less than „%2$s“',
+	'MOT_DIM_EXT_NAME'						=> 'Видалення неактивних користувачів',
+	'MOT_DIM_ERROR_EXTENSION_NOT_ENABLE'	=> 'Розширення "%1$s" не може бути ввімкнено. Будь ласка, перевірте, чи виконані необхідні вимоги для цього розширення.',
+	'MOT_DIM_ERROR_MESSAGE_PHPBB_VERSION'	=> 'Потрібна мінімальна версія phpBB: "%1$s", але менша за "%2$s“',
+	'MOT_DIM_PHP_VERSION_ERROR'				=> 'Мінімальна версія PHP - "%1$s", але менша за "%2$s“',
 ]);
